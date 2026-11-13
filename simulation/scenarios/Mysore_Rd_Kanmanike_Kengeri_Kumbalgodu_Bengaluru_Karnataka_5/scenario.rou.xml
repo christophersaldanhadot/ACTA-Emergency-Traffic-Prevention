@@ -1,0 +1,77 @@
+<routes>
+    <vType id="ambulance" vClass="emergency" length="6.5" maxSpeed="19.4" guiShape="emergency" color="1,0,0" speedFactor="1.0" sigma="0"/>
+    <vType id="car" vClass="passenger" length="4.5" maxSpeed="13.9" guiShape="passenger" sigma="0.5"/>
+    <vType id="ego_car" vClass="passenger" guiShape="passenger" length="4.5" sigma="0" speedFactor="0.8977"/>
+    <route id="ambulance_route" edges="main_fwd_0 main_fwd_1 main_fwd_2 main_fwd_3 main_fwd_4 main_fwd_5 main_fwd_6 main_fwd_7 main_fwd_8 main_fwd_9 main_fwd_10 main_fwd_11 main_fwd_12 main_fwd_13 main_fwd_14 main_fwd_15 main_fwd_16"/>
+    <route id="ego_route" edges="main_fwd_0 main_fwd_1 main_fwd_2 main_fwd_3 main_fwd_4 main_fwd_5 main_fwd_6 main_fwd_7 main_fwd_8 main_fwd_9 main_fwd_10 main_fwd_11 main_fwd_12 main_fwd_13 main_fwd_14 main_fwd_15 main_fwd_16"/>
+    <route id="bg_main_fwd" edges="main_fwd_0 main_fwd_1 main_fwd_2 main_fwd_3 main_fwd_4 main_fwd_5 main_fwd_6 main_fwd_7 main_fwd_8 main_fwd_9 main_fwd_10 main_fwd_11 main_fwd_12 main_fwd_13 main_fwd_14 main_fwd_15 main_fwd_16"/>
+    <route id="bg_main_rev" edges="main_rev_16 main_rev_15 main_rev_14 main_rev_13 main_rev_12 main_rev_11 main_rev_10 main_rev_9 main_rev_8 main_rev_7 main_rev_6 main_rev_5 main_rev_4 main_rev_3 main_rev_2 main_rev_1 main_rev_0"/>
+    <flow id="flow_main_fwd" type="car" route="bg_main_fwd" begin="0" end="1200" period="9" departSpeed="max"/>
+    <flow id="flow_main_rev" type="car" route="bg_main_rev" begin="0" end="1200" period="11" departSpeed="max"/>
+    <route id="cross_n_sig_2334208112_s2n" edges="n_sig_2334208112_cross_in_s n_sig_2334208112_cross_out_n"/>
+    <route id="cross_n_sig_2334208112_n2s" edges="n_sig_2334208112_cross_in_n n_sig_2334208112_cross_out_s"/>
+    <flow id="flow_cross_n_sig_2334208112_s2n" type="car" route="cross_n_sig_2334208112_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_2334208112_n2s" type="car" route="cross_n_sig_2334208112_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_11688206890_s2n" edges="n_sig_11688206890_cross_in_s n_sig_11688206890_cross_out_n"/>
+    <route id="cross_n_sig_11688206890_n2s" edges="n_sig_11688206890_cross_in_n n_sig_11688206890_cross_out_s"/>
+    <flow id="flow_cross_n_sig_11688206890_s2n" type="car" route="cross_n_sig_11688206890_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_11688206890_n2s" type="car" route="cross_n_sig_11688206890_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_11688206894_s2n" edges="n_sig_11688206894_cross_in_s n_sig_11688206894_cross_out_n"/>
+    <route id="cross_n_sig_11688206894_n2s" edges="n_sig_11688206894_cross_in_n n_sig_11688206894_cross_out_s"/>
+    <flow id="flow_cross_n_sig_11688206894_s2n" type="car" route="cross_n_sig_11688206894_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_11688206894_n2s" type="car" route="cross_n_sig_11688206894_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_12538710575_s2n" edges="n_sig_12538710575_cross_in_s n_sig_12538710575_cross_out_n"/>
+    <route id="cross_n_sig_12538710575_n2s" edges="n_sig_12538710575_cross_in_n n_sig_12538710575_cross_out_s"/>
+    <flow id="flow_cross_n_sig_12538710575_s2n" type="car" route="cross_n_sig_12538710575_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_12538710575_n2s" type="car" route="cross_n_sig_12538710575_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_249585502_s2n" edges="n_sig_249585502_cross_in_s n_sig_249585502_cross_out_n"/>
+    <route id="cross_n_sig_249585502_n2s" edges="n_sig_249585502_cross_in_n n_sig_249585502_cross_out_s"/>
+    <flow id="flow_cross_n_sig_249585502_s2n" type="car" route="cross_n_sig_249585502_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_249585502_n2s" type="car" route="cross_n_sig_249585502_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_10010955383_s2n" edges="n_sig_10010955383_cross_in_s n_sig_10010955383_cross_out_n"/>
+    <route id="cross_n_sig_10010955383_n2s" edges="n_sig_10010955383_cross_in_n n_sig_10010955383_cross_out_s"/>
+    <flow id="flow_cross_n_sig_10010955383_s2n" type="car" route="cross_n_sig_10010955383_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_10010955383_n2s" type="car" route="cross_n_sig_10010955383_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_249086392_s2n" edges="n_sig_249086392_cross_in_s n_sig_249086392_cross_out_n"/>
+    <route id="cross_n_sig_249086392_n2s" edges="n_sig_249086392_cross_in_n n_sig_249086392_cross_out_s"/>
+    <flow id="flow_cross_n_sig_249086392_s2n" type="car" route="cross_n_sig_249086392_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_249086392_n2s" type="car" route="cross_n_sig_249086392_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_9939407828_s2n" edges="n_sig_9939407828_cross_in_s n_sig_9939407828_cross_out_n"/>
+    <route id="cross_n_sig_9939407828_n2s" edges="n_sig_9939407828_cross_in_n n_sig_9939407828_cross_out_s"/>
+    <flow id="flow_cross_n_sig_9939407828_s2n" type="car" route="cross_n_sig_9939407828_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_9939407828_n2s" type="car" route="cross_n_sig_9939407828_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_570758310_s2n" edges="n_sig_570758310_cross_in_s n_sig_570758310_cross_out_n"/>
+    <route id="cross_n_sig_570758310_n2s" edges="n_sig_570758310_cross_in_n n_sig_570758310_cross_out_s"/>
+    <flow id="flow_cross_n_sig_570758310_s2n" type="car" route="cross_n_sig_570758310_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_570758310_n2s" type="car" route="cross_n_sig_570758310_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_320647365_s2n" edges="n_sig_320647365_cross_in_s n_sig_320647365_cross_out_n"/>
+    <route id="cross_n_sig_320647365_n2s" edges="n_sig_320647365_cross_in_n n_sig_320647365_cross_out_s"/>
+    <flow id="flow_cross_n_sig_320647365_s2n" type="car" route="cross_n_sig_320647365_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_320647365_n2s" type="car" route="cross_n_sig_320647365_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_429001262_s2n" edges="n_sig_429001262_cross_in_s n_sig_429001262_cross_out_n"/>
+    <route id="cross_n_sig_429001262_n2s" edges="n_sig_429001262_cross_in_n n_sig_429001262_cross_out_s"/>
+    <flow id="flow_cross_n_sig_429001262_s2n" type="car" route="cross_n_sig_429001262_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_429001262_n2s" type="car" route="cross_n_sig_429001262_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_429001265_s2n" edges="n_sig_429001265_cross_in_s n_sig_429001265_cross_out_n"/>
+    <route id="cross_n_sig_429001265_n2s" edges="n_sig_429001265_cross_in_n n_sig_429001265_cross_out_s"/>
+    <flow id="flow_cross_n_sig_429001265_s2n" type="car" route="cross_n_sig_429001265_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_429001265_n2s" type="car" route="cross_n_sig_429001265_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_12609390302_s2n" edges="n_sig_12609390302_cross_in_s n_sig_12609390302_cross_out_n"/>
+    <route id="cross_n_sig_12609390302_n2s" edges="n_sig_12609390302_cross_in_n n_sig_12609390302_cross_out_s"/>
+    <flow id="flow_cross_n_sig_12609390302_s2n" type="car" route="cross_n_sig_12609390302_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_12609390302_n2s" type="car" route="cross_n_sig_12609390302_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_286679410_s2n" edges="n_sig_286679410_cross_in_s n_sig_286679410_cross_out_n"/>
+    <route id="cross_n_sig_286679410_n2s" edges="n_sig_286679410_cross_in_n n_sig_286679410_cross_out_s"/>
+    <flow id="flow_cross_n_sig_286679410_s2n" type="car" route="cross_n_sig_286679410_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_286679410_n2s" type="car" route="cross_n_sig_286679410_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_429230963_s2n" edges="n_sig_429230963_cross_in_s n_sig_429230963_cross_out_n"/>
+    <route id="cross_n_sig_429230963_n2s" edges="n_sig_429230963_cross_in_n n_sig_429230963_cross_out_s"/>
+    <flow id="flow_cross_n_sig_429230963_s2n" type="car" route="cross_n_sig_429230963_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_429230963_n2s" type="car" route="cross_n_sig_429230963_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <route id="cross_n_sig_10001161216_s2n" edges="n_sig_10001161216_cross_in_s n_sig_10001161216_cross_out_n"/>
+    <route id="cross_n_sig_10001161216_n2s" edges="n_sig_10001161216_cross_in_n n_sig_10001161216_cross_out_s"/>
+    <flow id="flow_cross_n_sig_10001161216_s2n" type="car" route="cross_n_sig_10001161216_s2n" begin="0" end="1200" period="20" departSpeed="max"/>
+    <flow id="flow_cross_n_sig_10001161216_n2s" type="car" route="cross_n_sig_10001161216_n2s" begin="0" end="1200" period="23" departSpeed="max"/>
+    <vehicle id="ego_car_0" type="ego_car" route="ego_route" depart="2" departSpeed="max" departLane="best"/>
+    <vehicle id="ambulance_0" type="ambulance" route="ambulance_route" depart="5" departSpeed="max" departLane="best"/>
+</routes>

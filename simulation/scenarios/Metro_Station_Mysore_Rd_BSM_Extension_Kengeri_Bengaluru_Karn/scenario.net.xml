@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-10T20:33:15.361985+05:30 by Eclipse SUMO netconvert 1.27.1
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\Metro_Station_Mysore_Rd_BSM_Extension_Kengeri_Bengaluru_Karn\scenario.nod.xml"/>
+        <edge-files value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\Metro_Station_Mysore_Rd_BSM_Extension_Kengeri_Bengaluru_Karn\scenario.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\Metro_Station_Mysore_Rd_BSM_Extension_Kengeri_Bengaluru_Karn\scenario.net.xml"/>
+    </output>
+
+    <tls_building>
+        <tls.half-offset value="n_sig_11688203993"/>
+    </tls_building>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,30.00" convBoundary="0.00,0.00,2686.00,60.00" origBoundary="0.00,-30.00,2686.00,30.00" projParameter="!"/>
+
+    <edge id=":n_sig_11688203993_0" function="internal">
+        <lane id=":n_sig_11688203993_0_0" index="0" allow="passenger" speed="6.35" length="8.56" shape="1222.06,37.20 1221.75,34.75 1220.81,33.00 1219.24,31.95 1217.05,31.60"/>
+    </edge>
+    <edge id=":n_sig_11688203993_1" function="internal">
+        <lane id=":n_sig_11688203993_1_0" index="0" allow="passenger" speed="8.30" length="14.40" shape="1222.06,37.20 1222.06,22.80"/>
+    </edge>
+    <edge id=":n_sig_11688203993_2" function="internal">
+        <lane id=":n_sig_11688203993_2_0" index="0" allow="passenger" speed="7.80" length="4.07" shape="1222.06,37.20 1222.85,34.07 1223.35,33.39"/>
+    </edge>
+    <edge id=":n_sig_11688203993_12" function="internal">
+        <lane id=":n_sig_11688203993_12_0" index="0" allow="passenger" speed="7.80" length="9.37" shape="1223.35,33.39 1224.90,31.24 1227.73,29.19 1230.86,28.40"/>
+    </edge>
+    <edge id=":n_sig_11688203993_3" function="internal">
+        <lane id=":n_sig_11688203993_3_0" index="0" allow="passenger" speed="6.51" length="9.03" shape="1230.86,31.60 1228.41,31.95 1226.66,33.00 1225.61,34.75 1225.26,37.20"/>
+    </edge>
+    <edge id=":n_sig_11688203993_4" function="internal">
+        <lane id=":n_sig_11688203993_4_0" index="0" allow="emergency passenger" speed="13.90" length="13.81" shape="1230.86,31.60 1217.05,31.60"/>
+    </edge>
+    <edge id=":n_sig_11688203993_5" function="internal">
+        <lane id=":n_sig_11688203993_5_0" index="0" allow="passenger" speed="7.80" length="4.07" shape="1230.86,31.60 1227.73,30.81 1227.05,30.31"/>
+    </edge>
+    <edge id=":n_sig_11688203993_13" function="internal">
+        <lane id=":n_sig_11688203993_13_0" index="0" allow="passenger" speed="7.80" length="9.37" shape="1227.05,30.31 1224.90,28.76 1222.85,25.93 1222.06,22.80"/>
+    </edge>
+    <edge id=":n_sig_11688203993_6" function="internal">
+        <lane id=":n_sig_11688203993_6_0" index="0" allow="passenger" speed="6.51" length="9.03" shape="1225.26,22.80 1225.61,25.25 1226.66,27.00 1228.41,28.05 1230.86,28.40"/>
+    </edge>
+    <edge id=":n_sig_11688203993_7" function="internal">
+        <lane id=":n_sig_11688203993_7_0" index="0" allow="passenger" speed="8.30" length="14.40" shape="1225.26,22.80 1225.26,37.20"/>
+    </edge>
+    <edge id=":n_sig_11688203993_8" function="internal">
+        <lane id=":n_sig_11688203993_8_0" index="0" allow="passenger" speed="7.68" length="4.16" shape="1225.26,22.80 1224.54,25.87 1223.98,26.71"/>
+    </edge>
+    <edge id=":n_sig_11688203993_14" function="internal">
+        <lane id=":n_sig_11688203993_14_0" index="0" allow="passenger" speed="7.68" length="8.84" shape="1223.98,26.71 1222.66,28.70 1220.03,30.79 1217.05,31.60"/>
+    </edge>
+    <edge id=":n_sig_11688203993_9" function="internal">
+        <lane id=":n_sig_11688203993_9_0" index="0" allow="passenger" speed="6.35" length="8.56" shape="1217.05,28.40 1219.24,28.05 1220.81,27.00 1221.75,25.25 1222.06,22.80"/>
+    </edge>
+    <edge id=":n_sig_11688203993_10" function="internal">
+        <lane id=":n_sig_11688203993_10_0" index="0" allow="emergency passenger" speed="13.90" length="13.81" shape="1217.05,28.40 1230.86,28.40"/>
+    </edge>
+    <edge id=":n_sig_11688203993_11" function="internal">
+        <lane id=":n_sig_11688203993_11_0" index="0" allow="passenger" speed="7.68" length="3.79" shape="1217.05,28.40 1220.03,29.21 1220.58,29.65"/>
+    </edge>
+    <edge id=":n_sig_11688203993_15" function="internal">
+        <lane id=":n_sig_11688203993_15_0" index="0" allow="passenger" speed="7.68" length="9.21" shape="1220.58,29.65 1222.66,31.30 1224.54,34.13 1225.26,37.20"/>
+    </edge>
+    <edge id=":n_sig_1835344749_0" function="internal">
+        <lane id=":n_sig_1835344749_0_0" index="0" allow="passenger" speed="6.51" length="9.03" shape="1208.64,37.20 1208.29,34.75 1207.24,33.00 1205.49,31.95 1203.04,31.60"/>
+    </edge>
+    <edge id=":n_sig_1835344749_1" function="internal">
+        <lane id=":n_sig_1835344749_1_0" index="0" allow="passenger" speed="8.30" length="14.40" shape="1208.64,37.20 1208.64,22.80"/>
+    </edge>
+    <edge id=":n_sig_1835344749_2" function="internal">
+        <lane id=":n_sig_1835344749_2_0" index="0" allow="passenger" speed="7.68" length="4.16" shape="1208.64,37.20 1209.36,34.13 1209.92,33.29"/>
+    </edge>
+    <edge id=":n_sig_1835344749_12" function="internal">
+        <lane id=":n_sig_1835344749_12_0" index="0" allow="passenger" speed="7.68" length="8.84" shape="1209.92,33.29 1211.24,31.30 1213.87,29.21 1216.85,28.40"/>
+    </edge>
+    <edge id=":n_sig_1835344749_3" function="internal">
+        <lane id=":n_sig_1835344749_3_0" index="0" allow="passenger" speed="6.35" length="8.56" shape="1216.85,31.60 1214.66,31.95 1213.09,33.00 1212.15,34.75 1211.84,37.20"/>
+    </edge>
+    <edge id=":n_sig_1835344749_4" function="internal">
+        <lane id=":n_sig_1835344749_4_0" index="0" allow="emergency passenger" speed="13.90" length="13.81" shape="1216.85,31.60 1203.04,31.60"/>
+    </edge>
+    <edge id=":n_sig_1835344749_5" function="internal">
+        <lane id=":n_sig_1835344749_5_0" index="0" allow="passenger" speed="7.68" length="3.79" shape="1216.85,31.60 1213.87,30.79 1213.32,30.35"/>
+    </edge>
+    <edge id=":n_sig_1835344749_13" function="internal">
+        <lane id=":n_sig_1835344749_13_0" index="0" allow="passenger" speed="7.68" length="9.21" shape="1213.32,30.35 1211.24,28.70 1209.36,25.87 1208.64,22.80"/>
+    </edge>
+    <edge id=":n_sig_1835344749_6" function="internal">
+        <lane id=":n_sig_1835344749_6_0" index="0" allow="passenger" speed="6.35" length="8.56" shape="1211.84,22.80 1212.15,25.25 1213.09,27.00 1214.66,28.05 1216.85,28.40"/>
+    </edge>
+    <edge id=":n_sig_1835344749_7" function="internal">
+        <lane id=":n_sig_1835344749_7_0" index="0" allow="passenger" speed="8.30" length="14.40" shape="1211.84,22.80 1211.84,37.20"/>
+    </edge>
+    <edge id=":n_sig_1835344749_8" function="internal">
+        <lane id=":n_sig_1835344749_8_0" index="0" allow="passenger" speed="7.80" length="4.07" shape="1211.84,22.80 1211.05,25.93 1210.55,26.61"/>
+    </edge>
+    <edge id=":n_sig_1835344749_14" function="internal">
+        <lane id=":n_sig_1835344749_14_0" index="0" allow="passenger" speed="7.80" length="9.37" shape="1210.55,26.61 1209.00,28.76 1206.17,30.81 1203.04,31.60"/>
+    </edge>
+    <edge id=":n_sig_1835344749_9" function="internal">
+        <lane id=":n_sig_1835344749_9_0" index="0" allow="passenger" speed="6.51" length="9.03" shape="1203.04,28.40 1205.49,28.05 1207.24,27.00 1208.29,25.25 1208.64,22.80"/>
+    </edge>
+    <edge id=":n_sig_1835344749_10" function="internal">
+        <lane id=":n_sig_1835344749_10_0" index="0" allow="emergency passenger" speed="13.90" length="13.81" shape="1203.04,28.40 1216.85,28.40"/>
+    </edge>
+    <edge id=":n_sig_1835344749_11" function="internal">
+        <lane id=":n_sig_1835344749_11_0" index="0" allow="passenger" speed="7.80" length="4.07" shape="1203.04,28.40 1206.17,29.19 1206.85,29.69"/>
+    </edge>
+    <edge id=":n_sig_1835344749_15" function="internal">
+        <lane id=":n_sig_1835344749_15_0" index="0" allow="passenger" speed="7.80" length="9.37" shape="1206.85,29.69 1209.00,31.24 1211.05,34.07 1211.84,37.20"/>
+    </edge>
+
+    <edge id="main_fwd_0" from="n0" to="n_sig_1835344749" priority="-1">
+        <lane id="main_fwd_0_0" index="0" allow="emergency passenger" speed="13.90" length="1203.04" shape="0.00,28.40 1203.04,28.40"/>
+    </edge>
+    <edge id="main_fwd_1" from="n_sig_1835344749" to="n_sig_11688203993" priority="-1">
+        <lane id="main_fwd_1_0" index="0" allow="emergency passenger" speed="13.90" length="0.20" shape="1216.85,28.40 1217.05,28.40"/>
+    </edge>
+    <edge id="main_fwd_2" from="n_sig_11688203993" to="n_end" priority="-1">
+        <lane id="main_fwd_2_0" index="0" allow="emergency passenger" speed="13.90" length="1455.14" shape="1230.86,28.40 2686.00,28.40"/>
+    </edge>
+    <edge id="main_rev_0" from="n_sig_1835344749" to="n0" priority="-1">
+        <lane id="main_rev_0_0" index="0" allow="emergency passenger" speed="13.90" length="1203.04" shape="1203.04,31.60 0.00,31.60"/>
+    </edge>
+    <edge id="main_rev_1" from="n_sig_11688203993" to="n_sig_1835344749" priority="-1">
+        <lane id="main_rev_1_0" index="0" allow="emergency passenger" speed="13.90" length="0.20" shape="1217.05,31.60 1216.85,31.60"/>
+    </edge>
+    <edge id="main_rev_2" from="n_end" to="n_sig_11688203993" priority="-1">
+        <lane id="main_rev_2_0" index="0" allow="emergency passenger" speed="13.90" length="1455.14" shape="2686.00,31.60 1230.86,31.60"/>
+    </edge>
+    <edge id="n_sig_11688203993_cross_in_n" from="n_sig_11688203993_n" to="n_sig_11688203993" priority="-1">
+        <lane id="n_sig_11688203993_cross_in_n_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1222.06,60.00 1222.06,37.20"/>
+    </edge>
+    <edge id="n_sig_11688203993_cross_in_s" from="n_sig_11688203993_s" to="n_sig_11688203993" priority="-1">
+        <lane id="n_sig_11688203993_cross_in_s_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1225.26,0.00 1225.26,22.80"/>
+    </edge>
+    <edge id="n_sig_11688203993_cross_out_n" from="n_sig_11688203993" to="n_sig_11688203993_n" priority="-1">
+        <lane id="n_sig_11688203993_cross_out_n_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1225.26,37.20 1225.26,60.00"/>
+    </edge>
+    <edge id="n_sig_11688203993_cross_out_s" from="n_sig_11688203993" to="n_sig_11688203993_s" priority="-1">
+        <lane id="n_sig_11688203993_cross_out_s_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1222.06,22.80 1222.06,0.00"/>
+    </edge>
+    <edge id="n_sig_1835344749_cross_in_n" from="n_sig_1835344749_n" to="n_sig_1835344749" priority="-1">
+        <lane id="n_sig_1835344749_cross_in_n_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1208.64,60.00 1208.64,37.20"/>
+    </edge>
+    <edge id="n_sig_1835344749_cross_in_s" from="n_sig_1835344749_s" to="n_sig_1835344749" priority="-1">
+        <lane id="n_sig_1835344749_cross_in_s_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1211.84,0.00 1211.84,22.80"/>
+    </edge>
+    <edge id="n_sig_1835344749_cross_out_n" from="n_sig_1835344749" to="n_sig_1835344749_n" priority="-1">
+        <lane id="n_sig_1835344749_cross_out_n_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1211.84,37.20 1211.84,60.00"/>
+    </edge>
+    <edge id="n_sig_1835344749_cross_out_s" from="n_sig_1835344749" to="n_sig_1835344749_s" priority="-1">
+        <lane id="n_sig_1835344749_cross_out_s_0" index="0" allow="passenger" speed="8.30" length="22.80" shape="1208.64,22.80 1208.64,0.00"/>
+    </edge>
+
+    <tlLogic id="n_sig_11688203993" type="static" programID="0" offset="45">
+        <phase duration="42" state="rrrGGgrrrGGg"/>
+        <phase duration="3"  state="rrryyyrrryyy"/>
+        <phase duration="42" state="GGgrrrGGgrrr"/>
+        <phase duration="3"  state="yyyrrryyyrrr"/>
+    </tlLogic>
+    <tlLogic id="n_sig_1835344749" type="static" programID="0" offset="0">
+        <phase duration="42" state="rrrGGgrrrGGg"/>
+        <phase duration="3"  state="rrryyyrrryyy"/>
+        <phase duration="42" state="GGgrrrGGgrrr"/>
+        <phase duration="3"  state="yyyrrryyyrrr"/>
+    </tlLogic>
+
+    <junction id="n0" type="dead_end" x="0.00" y="30.00" incLanes="main_rev_0_0" intLanes="" shape="0.00,30.00 0.00,33.20 0.00,30.00"/>
+    <junction id="n_end" type="dead_end" x="2686.00" y="30.00" incLanes="main_fwd_2_0" intLanes="" shape="2686.00,30.00 2686.00,26.80 2686.00,30.00"/>
+    <junction id="n_sig_11688203993" type="traffic_light" x="1223.66" y="30.00" incLanes="n_sig_11688203993_cross_in_n_0 main_rev_2_0 n_sig_11688203993_cross_in_s_0 main_fwd_1_0" intLanes=":n_sig_11688203993_0_0 :n_sig_11688203993_1_0 :n_sig_11688203993_12_0 :n_sig_11688203993_3_0 :n_sig_11688203993_4_0 :n_sig_11688203993_13_0 :n_sig_11688203993_6_0 :n_sig_11688203993_7_0 :n_sig_11688203993_14_0 :n_sig_11688203993_9_0 :n_sig_11688203993_10_0 :n_sig_11688203993_15_0" shape="1220.46,37.20 1226.86,37.20 1227.30,34.98 1227.86,34.20 1228.64,33.64 1229.64,33.31 1230.86,33.20 1230.86,26.80 1228.64,26.36 1227.86,25.80 1227.30,25.02 1226.97,24.02 1226.86,22.80 1220.46,22.80 1220.02,25.02 1219.46,25.80 1218.68,26.36 1217.68,26.69 1216.46,26.80 1216.46,33.20 1218.68,33.64 1219.46,34.20 1220.02,34.98 1220.35,35.98">
+        <request index="0"  response="000000010000" foes="000100010000" cont="0"/>
+        <request index="1"  response="111000110000" foes="111100110000" cont="0"/>
+        <request index="2"  response="110011110000" foes="110011110000" cont="1"/>
+        <request index="3"  response="000000000000" foes="100010000000" cont="0"/>
+        <request index="4"  response="000100000100" foes="100110000111" cont="0"/>
+        <request index="5"  response="011100000100" foes="011110000110" cont="1"/>
+        <request index="6"  response="010000000000" foes="010000000100" cont="0"/>
+        <request index="7"  response="110000111000" foes="110000111100" cont="0"/>
+        <request index="8"  response="110000110011" foes="110000110011" cont="1"/>
+        <request index="9"  response="000000000000" foes="000000100010" cont="0"/>
+        <request index="10" response="000100000100" foes="000111100110" cont="0"/>
+        <request index="11" response="000100011100" foes="000110011110" cont="1"/>
+    </junction>
+    <junction id="n_sig_11688203993_n" type="dead_end" x="1223.66" y="60.00" incLanes="n_sig_11688203993_cross_out_n_0" intLanes="" shape="1223.66,60.00 1226.86,60.00 1223.66,60.00"/>
+    <junction id="n_sig_11688203993_s" type="dead_end" x="1223.66" y="0.00" incLanes="n_sig_11688203993_cross_out_s_0" intLanes="" shape="1223.66,0.00 1220.46,0.00 1223.66,0.00"/>
+    <junction id="n_sig_1835344749" type="traffic_light" x="1210.24" y="30.00" incLanes="n_sig_1835344749_cross_in_n_0 main_rev_1_0 n_sig_1835344749_cross_in_s_0 main_fwd_0_0" intLanes=":n_sig_1835344749_0_0 :n_sig_1835344749_1_0 :n_sig_1835344749_12_0 :n_sig_1835344749_3_0 :n_sig_1835344749_4_0 :n_sig_1835344749_13_0 :n_sig_1835344749_6_0 :n_sig_1835344749_7_0 :n_sig_1835344749_14_0 :n_sig_1835344749_9_0 :n_sig_1835344749_10_0 :n_sig_1835344749_15_0" shape="1207.04,37.20 1213.44,37.20 1213.88,34.98 1214.44,34.20 1215.22,33.64 1216.22,33.31 1217.44,33.20 1217.44,26.80 1215.22,26.36 1214.44,25.80 1213.88,25.02 1213.55,24.02 1213.44,22.80 1207.04,22.80 1206.60,25.02 1206.04,25.80 1205.26,26.36 1204.26,26.69 1203.04,26.80 1203.04,33.20 1205.26,33.64 1206.04,34.20 1206.60,34.98 1206.93,35.98">
+        <request index="0"  response="000000010000" foes="000100010000" cont="0"/>
+        <request index="1"  response="111000110000" foes="111100110000" cont="0"/>
+        <request index="2"  response="110011110000" foes="110011110000" cont="1"/>
+        <request index="3"  response="000000000000" foes="100010000000" cont="0"/>
+        <request index="4"  response="000100000100" foes="100110000111" cont="0"/>
+        <request index="5"  response="011100000100" foes="011110000110" cont="1"/>
+        <request index="6"  response="010000000000" foes="010000000100" cont="0"/>
+        <request index="7"  response="110000111000" foes="110000111100" cont="0"/>
+        <request index="8"  response="110000110011" foes="110000110011" cont="1"/>
+        <request index="9"  response="000000000000" foes="000000100010" cont="0"/>
+        <request index="10" response="000100000100" foes="000111100110" cont="0"/>
+        <request index="11" response="000100011100" foes="000110011110" cont="1"/>
+    </junction>
+    <junction id="n_sig_1835344749_n" type="dead_end" x="1210.24" y="60.00" incLanes="n_sig_1835344749_cross_out_n_0" intLanes="" shape="1210.24,60.00 1213.44,60.00 1210.24,60.00"/>
+    <junction id="n_sig_1835344749_s" type="dead_end" x="1210.24" y="0.00" incLanes="n_sig_1835344749_cross_out_s_0" intLanes="" shape="1210.24,0.00 1207.04,0.00 1210.24,0.00"/>
+
+    <junction id=":n_sig_11688203993_12_0" type="internal" x="1223.35" y="33.39" incLanes=":n_sig_11688203993_2_0 n_sig_11688203993_cross_in_s_0" intLanes=":n_sig_11688203993_4_0 :n_sig_11688203993_5_0 :n_sig_11688203993_6_0 :n_sig_11688203993_7_0 :n_sig_11688203993_10_0 :n_sig_11688203993_11_0"/>
+    <junction id=":n_sig_11688203993_13_0" type="internal" x="1227.05" y="30.31" incLanes=":n_sig_11688203993_5_0 main_fwd_1_0" intLanes=":n_sig_11688203993_1_0 :n_sig_11688203993_2_0 :n_sig_11688203993_7_0 :n_sig_11688203993_8_0 :n_sig_11688203993_9_0 :n_sig_11688203993_10_0"/>
+    <junction id=":n_sig_11688203993_14_0" type="internal" x="1223.98" y="26.71" incLanes=":n_sig_11688203993_8_0 n_sig_11688203993_cross_in_n_0" intLanes=":n_sig_11688203993_0_0 :n_sig_11688203993_1_0 :n_sig_11688203993_4_0 :n_sig_11688203993_5_0 :n_sig_11688203993_10_0 :n_sig_11688203993_11_0"/>
+    <junction id=":n_sig_11688203993_15_0" type="internal" x="1220.58" y="29.65" incLanes=":n_sig_11688203993_11_0 main_rev_2_0" intLanes=":n_sig_11688203993_1_0 :n_sig_11688203993_2_0 :n_sig_11688203993_3_0 :n_sig_11688203993_4_0 :n_sig_11688203993_7_0 :n_sig_11688203993_8_0"/>
+    <junction id=":n_sig_1835344749_12_0" type="internal" x="1209.92" y="33.29" incLanes=":n_sig_1835344749_2_0 n_sig_1835344749_cross_in_s_0" intLanes=":n_sig_1835344749_4_0 :n_sig_1835344749_5_0 :n_sig_1835344749_6_0 :n_sig_1835344749_7_0 :n_sig_1835344749_10_0 :n_sig_1835344749_11_0"/>
+    <junction id=":n_sig_1835344749_13_0" type="internal" x="1213.32" y="30.35" incLanes=":n_sig_1835344749_5_0 main_fwd_0_0" intLanes=":n_sig_1835344749_1_0 :n_sig_1835344749_2_0 :n_sig_1835344749_7_0 :n_sig_1835344749_8_0 :n_sig_1835344749_9_0 :n_sig_1835344749_10_0"/>
+    <junction id=":n_sig_1835344749_14_0" type="internal" x="1210.55" y="26.61" incLanes=":n_sig_1835344749_8_0 n_sig_1835344749_cross_in_n_0" intLanes=":n_sig_1835344749_0_0 :n_sig_1835344749_1_0 :n_sig_1835344749_4_0 :n_sig_1835344749_5_0 :n_sig_1835344749_10_0 :n_sig_1835344749_11_0"/>
+    <junction id=":n_sig_1835344749_15_0" type="internal" x="1206.85" y="29.69" incLanes=":n_sig_1835344749_11_0 main_rev_1_0" intLanes=":n_sig_1835344749_1_0 :n_sig_1835344749_2_0 :n_sig_1835344749_3_0 :n_sig_1835344749_4_0 :n_sig_1835344749_7_0 :n_sig_1835344749_8_0"/>
+
+    <connection from="main_fwd_0" to="n_sig_1835344749_cross_out_s" fromLane="0" toLane="0" via=":n_sig_1835344749_9_0" tl="n_sig_1835344749" linkIndex="9" dir="r" state="O"/>
+    <connection from="main_fwd_0" to="main_fwd_1" fromLane="0" toLane="0" via=":n_sig_1835344749_10_0" tl="n_sig_1835344749" linkIndex="10" dir="s" state="O"/>
+    <connection from="main_fwd_0" to="n_sig_1835344749_cross_out_n" fromLane="0" toLane="0" via=":n_sig_1835344749_11_0" tl="n_sig_1835344749" linkIndex="11" dir="l" state="o"/>
+    <connection from="main_fwd_1" to="n_sig_11688203993_cross_out_s" fromLane="0" toLane="0" via=":n_sig_11688203993_9_0" tl="n_sig_11688203993" linkIndex="9" dir="r" state="O"/>
+    <connection from="main_fwd_1" to="main_fwd_2" fromLane="0" toLane="0" via=":n_sig_11688203993_10_0" tl="n_sig_11688203993" linkIndex="10" dir="s" state="O"/>
+    <connection from="main_fwd_1" to="n_sig_11688203993_cross_out_n" fromLane="0" toLane="0" via=":n_sig_11688203993_11_0" tl="n_sig_11688203993" linkIndex="11" dir="l" state="o"/>
+    <connection from="main_rev_1" to="n_sig_1835344749_cross_out_n" fromLane="0" toLane="0" via=":n_sig_1835344749_3_0" tl="n_sig_1835344749" linkIndex="3" dir="r" state="O"/>
+    <connection from="main_rev_1" to="main_rev_0" fromLane="0" toLane="0" via=":n_sig_1835344749_4_0" tl="n_sig_1835344749" linkIndex="4" dir="s" state="O"/>
+    <connection from="main_rev_1" to="n_sig_1835344749_cross_out_s" fromLane="0" toLane="0" via=":n_sig_1835344749_5_0" tl="n_sig_1835344749" linkIndex="5" dir="l" state="o"/>
+    <connection from="main_rev_2" to="n_sig_11688203993_cross_out_n" fromLane="0" toLane="0" via=":n_sig_11688203993_3_0" tl="n_sig_11688203993" linkIndex="3" dir="r" state="O"/>
+    <connection from="main_rev_2" to="main_rev_1" fromLane="0" toLane="0" via=":n_sig_11688203993_4_0" tl="n_sig_11688203993" linkIndex="4" dir="s" state="O"/>
+    <connection from="main_rev_2" to="n_sig_11688203993_cross_out_s" fromLane="0" toLane="0" via=":n_sig_11688203993_5_0" tl="n_sig_11688203993" linkIndex="5" dir="l" state="o"/>
+    <connection from="n_sig_11688203993_cross_in_n" to="main_rev_1" fromLane="0" toLane="0" via=":n_sig_11688203993_0_0" tl="n_sig_11688203993" linkIndex="0" dir="r" state="o"/>
+    <connection from="n_sig_11688203993_cross_in_n" to="n_sig_11688203993_cross_out_s" fromLane="0" toLane="0" via=":n_sig_11688203993_1_0" tl="n_sig_11688203993" linkIndex="1" dir="s" state="o"/>
+    <connection from="n_sig_11688203993_cross_in_n" to="main_fwd_2" fromLane="0" toLane="0" via=":n_sig_11688203993_2_0" tl="n_sig_11688203993" linkIndex="2" dir="l" state="o"/>
+    <connection from="n_sig_11688203993_cross_in_s" to="main_fwd_2" fromLane="0" toLane="0" via=":n_sig_11688203993_6_0" tl="n_sig_11688203993" linkIndex="6" dir="r" state="o"/>
+    <connection from="n_sig_11688203993_cross_in_s" to="n_sig_11688203993_cross_out_n" fromLane="0" toLane="0" via=":n_sig_11688203993_7_0" tl="n_sig_11688203993" linkIndex="7" dir="s" state="o"/>
+    <connection from="n_sig_11688203993_cross_in_s" to="main_rev_1" fromLane="0" toLane="0" via=":n_sig_11688203993_8_0" tl="n_sig_11688203993" linkIndex="8" dir="l" state="o"/>
+    <connection from="n_sig_1835344749_cross_in_n" to="main_rev_0" fromLane="0" toLane="0" via=":n_sig_1835344749_0_0" tl="n_sig_1835344749" linkIndex="0" dir="r" state="o"/>
+    <connection from="n_sig_1835344749_cross_in_n" to="n_sig_1835344749_cross_out_s" fromLane="0" toLane="0" via=":n_sig_1835344749_1_0" tl="n_sig_1835344749" linkIndex="1" dir="s" state="o"/>
+    <connection from="n_sig_1835344749_cross_in_n" to="main_fwd_1" fromLane="0" toLane="0" via=":n_sig_1835344749_2_0" tl="n_sig_1835344749" linkIndex="2" dir="l" state="o"/>
+    <connection from="n_sig_1835344749_cross_in_s" to="main_fwd_1" fromLane="0" toLane="0" via=":n_sig_1835344749_6_0" tl="n_sig_1835344749" linkIndex="6" dir="r" state="o"/>
+    <connection from="n_sig_1835344749_cross_in_s" to="n_sig_1835344749_cross_out_n" fromLane="0" toLane="0" via=":n_sig_1835344749_7_0" tl="n_sig_1835344749" linkIndex="7" dir="s" state="o"/>
+    <connection from="n_sig_1835344749_cross_in_s" to="main_rev_0" fromLane="0" toLane="0" via=":n_sig_1835344749_8_0" tl="n_sig_1835344749" linkIndex="8" dir="l" state="o"/>
+
+    <connection from=":n_sig_11688203993_0" to="main_rev_1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_11688203993_1" to="n_sig_11688203993_cross_out_s" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_11688203993_2" to="main_fwd_2" fromLane="0" toLane="0" via=":n_sig_11688203993_12_0" dir="l" state="m"/>
+    <connection from=":n_sig_11688203993_12" to="main_fwd_2" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_sig_11688203993_3" to="n_sig_11688203993_cross_out_n" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_11688203993_4" to="main_rev_1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_11688203993_5" to="n_sig_11688203993_cross_out_s" fromLane="0" toLane="0" via=":n_sig_11688203993_13_0" dir="l" state="m"/>
+    <connection from=":n_sig_11688203993_13" to="n_sig_11688203993_cross_out_s" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_sig_11688203993_6" to="main_fwd_2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_11688203993_7" to="n_sig_11688203993_cross_out_n" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_11688203993_8" to="main_rev_1" fromLane="0" toLane="0" via=":n_sig_11688203993_14_0" dir="l" state="m"/>
+    <connection from=":n_sig_11688203993_14" to="main_rev_1" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_sig_11688203993_9" to="n_sig_11688203993_cross_out_s" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_11688203993_10" to="main_fwd_2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_11688203993_11" to="n_sig_11688203993_cross_out_n" fromLane="0" toLane="0" via=":n_sig_11688203993_15_0" dir="l" state="m"/>
+    <connection from=":n_sig_11688203993_15" to="n_sig_11688203993_cross_out_n" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_sig_1835344749_0" to="main_rev_0" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_1835344749_1" to="n_sig_1835344749_cross_out_s" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_1835344749_2" to="main_fwd_1" fromLane="0" toLane="0" via=":n_sig_1835344749_12_0" dir="l" state="m"/>
+    <connection from=":n_sig_1835344749_12" to="main_fwd_1" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_sig_1835344749_3" to="n_sig_1835344749_cross_out_n" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_1835344749_4" to="main_rev_0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_1835344749_5" to="n_sig_1835344749_cross_out_s" fromLane="0" toLane="0" via=":n_sig_1835344749_13_0" dir="l" state="m"/>
+    <connection from=":n_sig_1835344749_13" to="n_sig_1835344749_cross_out_s" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_sig_1835344749_6" to="main_fwd_1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_1835344749_7" to="n_sig_1835344749_cross_out_n" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_1835344749_8" to="main_rev_0" fromLane="0" toLane="0" via=":n_sig_1835344749_14_0" dir="l" state="m"/>
+    <connection from=":n_sig_1835344749_14" to="main_rev_0" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_sig_1835344749_9" to="n_sig_1835344749_cross_out_s" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_sig_1835344749_10" to="main_fwd_1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_sig_1835344749_11" to="n_sig_1835344749_cross_out_n" fromLane="0" toLane="0" via=":n_sig_1835344749_15_0" dir="l" state="m"/>
+    <connection from=":n_sig_1835344749_15" to="n_sig_1835344749_cross_out_n" fromLane="0" toLane="0" dir="l" state="M"/>
+
+</net>

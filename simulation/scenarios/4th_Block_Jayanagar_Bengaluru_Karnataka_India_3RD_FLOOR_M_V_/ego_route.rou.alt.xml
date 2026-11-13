@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-10T21:06:05.840626+05:30 by Eclipse SUMO duarouter 1.27.1
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\4th_Block_Jayanagar_Bengaluru_Karnataka_India_3RD_FLOOR_M_V_\scenario.net.xml"/>
+        <route-files value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\4th_Block_Jayanagar_Bengaluru_Karnataka_India_3RD_FLOOR_M_V_\ego_trip.trips.xml"/>
+        <weight-attribute value="traveltime"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\4th_Block_Jayanagar_Bengaluru_Karnataka_India_3RD_FLOOR_M_V_\ego_route.rou.xml"/>
+    </output>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="false"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ego_car" length="4.50" speedFactor="1.00" vClass="passenger" guiShape="passenger" sigma="0"/>
+    <vehicle id="ego_car" type="ego_car" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="166.26" probability="1.00000000" edges="main_fwd_0 main_fwd_1 main_fwd_2"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

@@ -1,0 +1,94 @@
+<edges>
+    <edge id="n_sig_11286314186_cross_in_s" from="n_sig_11286314186_s" to="n_sig_11286314186" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11286314186_cross_out_s" from="n_sig_11286314186" to="n_sig_11286314186_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11286314186_cross_in_n" from="n_sig_11286314186_n" to="n_sig_11286314186" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11286314186_cross_out_n" from="n_sig_11286314186" to="n_sig_11286314186_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11434604019_cross_in_s" from="n_sig_11434604019_s" to="n_sig_11434604019" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11434604019_cross_out_s" from="n_sig_11434604019" to="n_sig_11434604019_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11434604019_cross_in_n" from="n_sig_11434604019_n" to="n_sig_11434604019" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11434604019_cross_out_n" from="n_sig_11434604019" to="n_sig_11434604019_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10016225617_cross_in_s" from="n_sig_10016225617_s" to="n_sig_10016225617" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10016225617_cross_out_s" from="n_sig_10016225617" to="n_sig_10016225617_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10016225617_cross_in_n" from="n_sig_10016225617_n" to="n_sig_10016225617" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10016225617_cross_out_n" from="n_sig_10016225617" to="n_sig_10016225617_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11684233295_cross_in_s" from="n_sig_11684233295_s" to="n_sig_11684233295" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11684233295_cross_out_s" from="n_sig_11684233295" to="n_sig_11684233295_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11684233295_cross_in_n" from="n_sig_11684233295_n" to="n_sig_11684233295" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_11684233295_cross_out_n" from="n_sig_11684233295" to="n_sig_11684233295_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_286965860_cross_in_s" from="n_sig_286965860_s" to="n_sig_286965860" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_286965860_cross_out_s" from="n_sig_286965860" to="n_sig_286965860_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_286965860_cross_in_n" from="n_sig_286965860_n" to="n_sig_286965860" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_286965860_cross_out_n" from="n_sig_286965860" to="n_sig_286965860_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10978687901_cross_in_s" from="n_sig_10978687901_s" to="n_sig_10978687901" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10978687901_cross_out_s" from="n_sig_10978687901" to="n_sig_10978687901_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10978687901_cross_in_n" from="n_sig_10978687901_n" to="n_sig_10978687901" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_10978687901_cross_out_n" from="n_sig_10978687901" to="n_sig_10978687901_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_287793968_cross_in_s" from="n_sig_287793968_s" to="n_sig_287793968" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_287793968_cross_out_s" from="n_sig_287793968" to="n_sig_287793968_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_287793968_cross_in_n" from="n_sig_287793968_n" to="n_sig_287793968" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_287793968_cross_out_n" from="n_sig_287793968" to="n_sig_287793968_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_663313890_cross_in_s" from="n_sig_663313890_s" to="n_sig_663313890" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_663313890_cross_out_s" from="n_sig_663313890" to="n_sig_663313890_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_663313890_cross_in_n" from="n_sig_663313890_n" to="n_sig_663313890" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_663313890_cross_out_n" from="n_sig_663313890" to="n_sig_663313890_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12128943114_cross_in_s" from="n_sig_12128943114_s" to="n_sig_12128943114" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12128943114_cross_out_s" from="n_sig_12128943114" to="n_sig_12128943114_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12128943114_cross_in_n" from="n_sig_12128943114_n" to="n_sig_12128943114" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12128943114_cross_out_n" from="n_sig_12128943114" to="n_sig_12128943114_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_246171012_cross_in_s" from="n_sig_246171012_s" to="n_sig_246171012" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_246171012_cross_out_s" from="n_sig_246171012" to="n_sig_246171012_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_246171012_cross_in_n" from="n_sig_246171012_n" to="n_sig_246171012" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_246171012_cross_out_n" from="n_sig_246171012" to="n_sig_246171012_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_9952997318_cross_in_s" from="n_sig_9952997318_s" to="n_sig_9952997318" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_9952997318_cross_out_s" from="n_sig_9952997318" to="n_sig_9952997318_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_9952997318_cross_in_n" from="n_sig_9952997318_n" to="n_sig_9952997318" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_9952997318_cross_out_n" from="n_sig_9952997318" to="n_sig_9952997318_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459959_cross_in_s" from="n_sig_12466459959_s" to="n_sig_12466459959" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459959_cross_out_s" from="n_sig_12466459959" to="n_sig_12466459959_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459959_cross_in_n" from="n_sig_12466459959_n" to="n_sig_12466459959" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459959_cross_out_n" from="n_sig_12466459959" to="n_sig_12466459959_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459977_cross_in_s" from="n_sig_12466459977_s" to="n_sig_12466459977" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459977_cross_out_s" from="n_sig_12466459977" to="n_sig_12466459977_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459977_cross_in_n" from="n_sig_12466459977_n" to="n_sig_12466459977" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459977_cross_out_n" from="n_sig_12466459977" to="n_sig_12466459977_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459995_cross_in_s" from="n_sig_12466459995_s" to="n_sig_12466459995" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459995_cross_out_s" from="n_sig_12466459995" to="n_sig_12466459995_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459995_cross_in_n" from="n_sig_12466459995_n" to="n_sig_12466459995" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_12466459995_cross_out_n" from="n_sig_12466459995" to="n_sig_12466459995_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_249081188_cross_in_s" from="n_sig_249081188_s" to="n_sig_249081188" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_249081188_cross_out_s" from="n_sig_249081188" to="n_sig_249081188_s" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_249081188_cross_in_n" from="n_sig_249081188_n" to="n_sig_249081188" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="n_sig_249081188_cross_out_n" from="n_sig_249081188" to="n_sig_249081188_n" numLanes="1" speed="8.30" allow="passenger"/>
+    <edge id="main_fwd_0" from="n0" to="n_sig_11286314186" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_0" from="n_sig_11286314186" to="n0" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_1" from="n_sig_11286314186" to="n_sig_11434604019" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_1" from="n_sig_11434604019" to="n_sig_11286314186" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_2" from="n_sig_11434604019" to="n_sig_10016225617" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_2" from="n_sig_10016225617" to="n_sig_11434604019" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_3" from="n_sig_10016225617" to="n_sig_11684233295" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_3" from="n_sig_11684233295" to="n_sig_10016225617" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_4" from="n_sig_11684233295" to="n_sig_286965860" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_4" from="n_sig_286965860" to="n_sig_11684233295" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_5" from="n_sig_286965860" to="n_sig_10978687901" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_5" from="n_sig_10978687901" to="n_sig_286965860" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_6" from="n_sig_10978687901" to="n_sig_287793968" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_6" from="n_sig_287793968" to="n_sig_10978687901" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_7" from="n_sig_287793968" to="n_sig_663313890" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_7" from="n_sig_663313890" to="n_sig_287793968" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_8" from="n_sig_663313890" to="n_sig_12128943114" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_8" from="n_sig_12128943114" to="n_sig_663313890" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_9" from="n_sig_12128943114" to="n_sig_246171012" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_9" from="n_sig_246171012" to="n_sig_12128943114" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_10" from="n_sig_246171012" to="n_sig_9952997318" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_10" from="n_sig_9952997318" to="n_sig_246171012" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_11" from="n_sig_9952997318" to="n_sig_12466459959" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_11" from="n_sig_12466459959" to="n_sig_9952997318" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_12" from="n_sig_12466459959" to="n_sig_12466459977" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_12" from="n_sig_12466459977" to="n_sig_12466459959" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_13" from="n_sig_12466459977" to="n_sig_12466459995" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_13" from="n_sig_12466459995" to="n_sig_12466459977" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_14" from="n_sig_12466459995" to="n_sig_249081188" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_14" from="n_sig_249081188" to="n_sig_12466459995" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_fwd_15" from="n_sig_249081188" to="n_end" numLanes="1" speed="13.90" allow="passenger emergency"/>
+    <edge id="main_rev_15" from="n_end" to="n_sig_249081188" numLanes="1" speed="13.90" allow="passenger emergency"/>
+</edges>

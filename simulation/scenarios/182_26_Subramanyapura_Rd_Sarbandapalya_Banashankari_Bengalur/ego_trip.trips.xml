@@ -1,0 +1,4 @@
+<routes>
+    <vType id="ego_car" vClass="passenger" guiShape="passenger" length="4.5" sigma="0" speedFactor="0.9840"/>
+    <trip id="ego_car" type="ego_car" depart="0" from="main_fwd_0" to="main_fwd_8"/>
+</routes>

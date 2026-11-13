@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <net-file value="scenario.net.xml"/>
+        <route-files value="scenario.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1200"/>
+        <step-length value="1"/>
+    </time>
+    <report>
+        <no-step-log value="true"/>
+        <duration-log.disable value="true"/>
+    </report>
+</configuration>

@@ -1,0 +1,80 @@
+{
+  "origin": "Test A",
+  "destination": "Test B",
+  "profile": "Urban",
+  "route_distance_meters": 2709.712487100141,
+  "signals": [
+    {
+      "signal_id": 1001,
+      "latitude": 12.9,
+      "longitude": 77.5,
+      "distance_from_route_meters": 0.0,
+      "position_on_route_meters": 1083.8849948411241,
+      "on_route": true,
+      "direction": "A_TO_B",
+      "match_confidence": 1.0
+    },
+    {
+      "signal_id": 1006,
+      "latitude": 12.9,
+      "longitude": 77.509,
+      "distance_from_route_meters": 0.0,
+      "position_on_route_meters": 2059.381490197151,
+      "on_route": true,
+      "direction": "A_TO_B",
+      "match_confidence": 1.0
+    }
+  ],
+  "discarded_signals": [
+    {
+      "signal_id": 1002,
+      "latitude": 12.90003,
+      "longitude": 77.50005,
+      "distance_from_route_meters": 3.3358477992104754,
+      "position_on_route_meters": 1089.304419815379,
+      "on_route": false,
+      "direction": "B_TO_A",
+      "reason": "opposite_direction"
+    },
+    {
+      "signal_id": 1003,
+      "latitude": 12.902,
+      "longitude": 77.5,
+      "distance_from_route_meters": 222.38985328899423,
+      "position_on_route_meters": 1083.8849948411241,
+      "on_route": false,
+      "direction": "UNKNOWN",
+      "reason": "off_route"
+    },
+    {
+      "signal_id": 1004,
+      "latitude": 12.9,
+      "longitude": 77.505,
+      "distance_from_route_meters": 0.0,
+      "position_on_route_meters": 1625.8274922604314,
+      "on_route": false,
+      "direction": "UNKNOWN",
+      "reason": "ambiguous_direction",
+      "match_confidence": 0.2
+    },
+    {
+      "signal_id": 1005,
+      "latitude": 12.9,
+      "longitude": 77.508,
+      "distance_from_route_meters": 0.0,
+      "position_on_route_meters": 1950.9929907105475,
+      "on_route": false,
+      "direction": "UNKNOWN",
+      "reason": "direction_unknown",
+      "match_confidence": 0.3
+    }
+  ],
+  "acta_plan": [
+    {
+      "from_signal": 1001,
+      "to_signal": 1006,
+      "distance_meters": 975.5,
+      "case": "IMMEDIATE_TRIGGER"
+    }
+  ]
+}

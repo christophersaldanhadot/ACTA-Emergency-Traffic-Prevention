@@ -1,0 +1,10 @@
+<nodes>
+    <node id="n0" x="0.00" y="0.00" type="priority"/>
+    <node id="n_sig_1835344749" x="1210.24" y="0.00" type="traffic_light"/>
+    <node id="n_sig_1835344749_s" x="1210.24" y="-30.00" type="priority"/>
+    <node id="n_sig_1835344749_n" x="1210.24" y="30.00" type="priority"/>
+    <node id="n_sig_11688203993" x="1223.66" y="0.00" type="traffic_light"/>
+    <node id="n_sig_11688203993_s" x="1223.66" y="-30.00" type="priority"/>
+    <node id="n_sig_11688203993_n" x="1223.66" y="30.00" type="priority"/>
+    <node id="n_end" x="2686.00" y="0.00" type="priority"/>
+</nodes>

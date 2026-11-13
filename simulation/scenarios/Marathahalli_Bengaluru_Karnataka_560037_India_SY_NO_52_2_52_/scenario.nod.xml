@@ -1,0 +1,7 @@
+<nodes>
+    <node id="n0" x="0.00" y="0.00" type="priority"/>
+    <node id="n_sig_12060861674" x="4346.81" y="0.00" type="traffic_light"/>
+    <node id="n_sig_12060861674_s" x="4346.81" y="-30.00" type="priority"/>
+    <node id="n_sig_12060861674_n" x="4346.81" y="30.00" type="priority"/>
+    <node id="n_end" x="6210.00" y="0.00" type="priority"/>
+</nodes>

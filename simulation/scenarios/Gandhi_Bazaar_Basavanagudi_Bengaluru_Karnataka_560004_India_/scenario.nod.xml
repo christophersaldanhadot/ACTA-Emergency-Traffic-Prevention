@@ -1,0 +1,37 @@
+<nodes>
+    <node id="n0" x="0.00" y="0.00" type="priority"/>
+    <node id="n_sig_3356003439" x="530.77" y="0.00" type="traffic_light"/>
+    <node id="n_sig_3356003439_s" x="530.77" y="-30.00" type="priority"/>
+    <node id="n_sig_3356003439_n" x="530.77" y="30.00" type="priority"/>
+    <node id="n_sig_12077171241" x="1624.48" y="0.00" type="traffic_light"/>
+    <node id="n_sig_12077171241_s" x="1624.48" y="-30.00" type="priority"/>
+    <node id="n_sig_12077171241_n" x="1624.48" y="30.00" type="priority"/>
+    <node id="n_sig_246171016" x="2024.96" y="0.00" type="traffic_light"/>
+    <node id="n_sig_246171016_s" x="2024.96" y="-30.00" type="priority"/>
+    <node id="n_sig_246171016_n" x="2024.96" y="30.00" type="priority"/>
+    <node id="n_sig_62067292" x="2478.70" y="0.00" type="traffic_light"/>
+    <node id="n_sig_62067292_s" x="2478.70" y="-30.00" type="priority"/>
+    <node id="n_sig_62067292_n" x="2478.70" y="30.00" type="priority"/>
+    <node id="n_sig_13343865504" x="3736.23" y="0.00" type="traffic_light"/>
+    <node id="n_sig_13343865504_s" x="3736.23" y="-30.00" type="priority"/>
+    <node id="n_sig_13343865504_n" x="3736.23" y="30.00" type="priority"/>
+    <node id="n_sig_248455447" x="4127.87" y="0.00" type="traffic_light"/>
+    <node id="n_sig_248455447_s" x="4127.87" y="-30.00" type="priority"/>
+    <node id="n_sig_248455447_n" x="4127.87" y="30.00" type="priority"/>
+    <node id="n_sig_248455465" x="4655.60" y="0.00" type="traffic_light"/>
+    <node id="n_sig_248455465_s" x="4655.60" y="-30.00" type="priority"/>
+    <node id="n_sig_248455465_n" x="4655.60" y="30.00" type="priority"/>
+    <node id="n_sig_12120691272" x="5237.76" y="0.00" type="traffic_light"/>
+    <node id="n_sig_12120691272_s" x="5237.76" y="-30.00" type="priority"/>
+    <node id="n_sig_12120691272_n" x="5237.76" y="30.00" type="priority"/>
+    <node id="n_sig_12460929659" x="5863.76" y="0.00" type="traffic_light"/>
+    <node id="n_sig_12460929659_s" x="5863.76" y="-30.00" type="priority"/>
+    <node id="n_sig_12460929659_n" x="5863.76" y="30.00" type="priority"/>
+    <node id="n_sig_12462507905" x="6198.83" y="0.00" type="traffic_light"/>
+    <node id="n_sig_12462507905_s" x="6198.83" y="-30.00" type="priority"/>
+    <node id="n_sig_12462507905_n" x="6198.83" y="30.00" type="priority"/>
+    <node id="n_sig_3268824710" x="6432.21" y="0.00" type="traffic_light"/>
+    <node id="n_sig_3268824710_s" x="6432.21" y="-30.00" type="priority"/>
+    <node id="n_sig_3268824710_n" x="6432.21" y="30.00" type="priority"/>
+    <node id="n_end" x="6589.00" y="0.00" type="priority"/>
+</nodes>

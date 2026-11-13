@@ -1,0 +1,63 @@
+{
+  "origin": "Synthetic A",
+  "destination": "Synthetic B",
+  "profile": "Urban",
+  "route_distance_meters": 3800.0,
+  "signals": [
+    {
+      "signal_id": 101,
+      "position_on_route_meters": 500.0,
+      "direction": "A_TO_B",
+      "on_route": true,
+      "match_confidence": 0.95
+    },
+    {
+      "signal_id": 102,
+      "position_on_route_meters": 570.0,
+      "direction": "A_TO_B",
+      "on_route": true,
+      "match_confidence": 0.95
+    },
+    {
+      "signal_id": 103,
+      "position_on_route_meters": 1200.0,
+      "direction": "A_TO_B",
+      "on_route": true,
+      "match_confidence": 0.95
+    },
+    {
+      "signal_id": 104,
+      "position_on_route_meters": 3200.0,
+      "direction": "A_TO_B",
+      "on_route": true,
+      "match_confidence": 0.95
+    }
+  ],
+  "discarded_signals": [],
+  "acta_plan": [
+    {
+      "from_signal": 101,
+      "to_signal": 102,
+      "distance_meters": 70.0,
+      "case": "IMMEDIATE_TRIGGER"
+    },
+    {
+      "from_signal": 102,
+      "to_signal": 103,
+      "distance_meters": 630.0,
+      "case": "WAYPOINT_TRIGGER",
+      "waypoint_meters": 700.0
+    },
+    {
+      "from_signal": 103,
+      "to_signal": 104,
+      "distance_meters": 2000.0,
+      "case": "MULTIPLE_WAYPOINTS",
+      "waypoints_meters": [
+        1700.0,
+        2200.0,
+        2700.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-10T20:52:54.864369+05:30 by Eclipse SUMO duarouter 1.27.1
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\Main_Road_Pattandur_Agrahara_Kadugodi_Bengaluru_Karnataka_56\scenario.net.xml"/>
+        <route-files value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\Main_Road_Pattandur_Agrahara_Kadugodi_Bengaluru_Karnataka_56\ego_trip.trips.xml"/>
+        <weight-attribute value="traveltime"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Harman\Downloads\ACTA_Project_P5_bengaluru_geocoding_FIXED\simulation\scenarios\Main_Road_Pattandur_Agrahara_Kadugodi_Bengaluru_Karnataka_56\ego_route.rou.xml"/>
+    </output>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="false"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ego_car" length="4.50" speedFactor="1.00" vClass="passenger" guiShape="passenger" sigma="0"/>
+    <vehicle id="ego_car" type="ego_car" depart="0.00">
+        <route edges="main_fwd_0 main_fwd_1 main_fwd_2 main_fwd_3 main_fwd_4 main_fwd_5 main_fwd_6 main_fwd_7"/>
+    </vehicle>
+</routes>
