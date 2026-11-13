@@ -1,0 +1,18 @@
+{
+    "Urban": {
+        "queueBuffer": 500,
+        "waypointSpacing": 600
+    },
+    "CBD": {
+        "queueBuffer": 150,
+        "waypointSpacing": 240
+    },
+    "Highway": {
+        "queueBuffer": 1000,
+        "waypointSpacing": 1200
+    },
+    "Rural": {
+        "queueBuffer": 600,
+        "waypointSpacing": 900
+    }
+}
